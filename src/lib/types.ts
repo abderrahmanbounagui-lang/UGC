@@ -1,4 +1,19 @@
-export type Platform = 'tiktok' | 'instagram-reels' | 'youtube-shorts';
+export type Platform =
+  | 'tiktok'
+  | 'tiktok-ads'
+  | 'instagram-reels'
+  | 'instagram-story'
+  | 'instagram-feed'
+  | 'youtube-shorts'
+  | 'youtube-ads'
+  | 'facebook-reels'
+  | 'facebook-feed'
+  | 'facebook-ads'
+  | 'snapchat'
+  | 'pinterest'
+  | 'linkedin-ads'
+  | 'twitter-x'
+  | 'google-ads';
 
 export type GeneratorStatus = 'idle' | 'submitting' | 'polling' | 'success' | 'error';
 
